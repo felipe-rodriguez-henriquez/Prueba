@@ -2,8 +2,28 @@ body {
     color: #9b9ba4;
 }
 
-.back-hero {
+.inicio__hero {
     background-color: #fff;
-    padding-top: 130px;
+    padding-top: 180px;
+    margin-bottom: 230px;
 }
 
+.sobre-mi__fondo {
+    margin-bottom: 100px;
+}
+
+.trabajos__fondo {
+    background-color: #26b7a0;
+}
+
+.footer__fondo {
+    background-color: #3d3f4c;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.trabajos--fondo {
+    background-color: #26B7A0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
