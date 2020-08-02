@@ -30,6 +30,14 @@ h1 {
   background-position-x: 900px;
 }
 
+@media  (max-width:768px){
+  .inicio__hero{
+    padding-top: 190px;
+    padding-bottom: 0px;
+  }
+
+}
+
 .sobre-mi__fondo {
   padding-top: 100px;
 }
@@ -46,8 +54,12 @@ h1 {
 
 .trabajos--fondo {
   background-color: #26B7A0;
-  padding-top: 40px;
-  padding-bottom: 90px;
+  padding-top: 100px;
+  padding-bottom: 170px;
+}
+
+.contacto--fondo {
+  padding-top: 100px;
 }
 
 .carousel-indicators li {
