@@ -17,6 +17,17 @@ h1 {
 
 }
 
+.a--link {
+  text-decoration: none;
+  color: #9b9ba4;
+  transition: all 0.5s;
+}
+
+.a--link:hover {
+  text-decoration: none;
+  color: #26B7A0;
+}
+
 
 .inicio__hero {
 
@@ -30,8 +41,8 @@ h1 {
   background-position-x: 900px;
 }
 
-@media  (max-width:768px){
-  .inicio__hero{
+@media (max-width:768px) {
+  .inicio__hero {
     padding-top: 190px;
     padding-bottom: 0px;
   }

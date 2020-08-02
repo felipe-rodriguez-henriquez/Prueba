@@ -4,12 +4,10 @@ $(document).ready(
         interval: 2000
     })
 
-    $('body').scrollspy({ target: '#menu' })
+    $('body').scrollspy({
+        target: '#menu'
+    })
 
-    
 
-    
+
 )
-
-
-
