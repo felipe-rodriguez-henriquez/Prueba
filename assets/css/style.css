@@ -1,30 +1,141 @@
-body {
-    color: #9b9ba4;
-    font-family: 'Nunito', sans-serif;
+html {
+  scroll-behavior: smooth;
 }
 
+body {
+  color: #9b9ba4;
+  font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+  color: #3d3f4c;
+  font-weight: 700;
+}
+
+.h1--titulo {
+  font-size: 50px;
+
+}
+
+
 .inicio__hero {
-    background-color: #fff;
-    padding-top: 180px;
-    margin-bottom: 230px;
+
+  padding-top: 390px;
+  padding-bottom: 390px;
+  background-image: url("/assets/img/felipe-rodriguez-h.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: 600px;
+  background-position-x: 900px;
 }
 
 .sobre-mi__fondo {
-    margin-bottom: 100px;
+  padding-top: 100px;
 }
 
-.trabajos__fondo {
-    background-color: #26b7a0;
+.experiencia__fondo {
+  padding-top: 100px;
 }
 
 .footer__fondo {
-    background-color: #3d3f4c;
-    padding-top: 40px;
-    padding-bottom: 40px;
+  background-color: #3d3f4c;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .trabajos--fondo {
-    background-color: #26B7A0;
-    padding-top: 40px;
-    padding-bottom: 40px;
+  background-color: #26B7A0;
+  padding-top: 40px;
+  padding-bottom: 90px;
+}
+
+.carousel-indicators li {
+  border-radius: 50%;
+  height: 13px;
+  width: 13px;
+  background: #373A3C31;
+  border: 0;
+}
+
+.carrusel .carousel-indicators {
+  left: 0;
+  top: auto;
+  bottom: -60px;
+}
+
+.carrusel .carousel-indicators .active {
+  background: #373A3C;
+}
+
+i.fa-git-alt:hover {
+  color: #f84c20;
+}
+
+i.fa-bootstrap:hover {
+  color: #5a3d83;
+}
+
+i.fa-sass:hover {
+  color: #c15188;
+}
+
+i.fa-css3-alt:hover {
+  color: #29a1e0;
+}
+
+i.fa-js:hover {
+  color: #f7d43c;
+}
+
+i.fa-vuejs:hover {
+  color: #3fb37f;
+}
+
+i.fa-node:hover {
+  color: #7fc728;
+}
+
+i.fa-html5:hover {
+  color: #e75e28;
+}
+
+i.fa-github:hover {
+  color: #24292e;
+}
+
+i.fa-linkedin-in:hover {
+  color: #0070ac;
+}
+
+i.fa-instagram:hover {
+  color: #f60175;
+}
+
+.a--color {
+  color: #fff;
+
+}
+
+
+.h5--design {
+  color: #26B7A0;
+}
+
+.h5--hi {
+  color: #3d3f4c;
+  font-weight: 700;
+}
+
+hr.hr--diagonal {
+  border-top: 1px solid #000;
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transform: translate(-20%, -50%) rotate(45deg);
+  transform: translate(-50%, -50%) rotate(-45deg);
+  width: 220px;
+}
+
+.p--green {
+  color: #26B7A0;
 }
